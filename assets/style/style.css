@@ -1,0 +1,9 @@
+/* BASIC STYLES HERE */
+.spell-row{
+  height: 91.7vh;
+}
+
+.all-spells{
+  max-height: 100%;
+  overflow-y: auto;
+}
