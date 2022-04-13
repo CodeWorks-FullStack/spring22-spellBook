@@ -25,7 +25,7 @@ export class Spell {
       </div>
       `
   }
-
+  // Conditionally rendering which buttons are shown based on whether or not it has been through the sandbox
   get Buttons() {
     if (this.id) {
       return /*html*/ `

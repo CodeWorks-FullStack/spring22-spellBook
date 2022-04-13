@@ -23,6 +23,7 @@ export class ApiSpellsController {
     ProxyState.on('spells', _drawSpells)
     ProxyState.on('activeSpell', _drawActiveSpell)
   }
+
   async getApiSpells() {
     try {
       await apiSpellsService.getApiSpells()

@@ -54,6 +54,7 @@ export class MySpellsController {
       console.log(error);
     }
   }
+
   async getMySpells() {
     try {
       await mySpellsService.getMySpells()

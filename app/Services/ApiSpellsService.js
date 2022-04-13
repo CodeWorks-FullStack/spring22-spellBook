@@ -7,6 +7,7 @@ class ApiSpellsService {
     const res = await dndApi.get('spells/' + spellIndex)
     ProxyState.activeSpell = new Spell(res.data)
   }
+
   async getApiSpells() {
     const res = await dndApi.get('spells')
     // NOTE ALWAYS LOG THE RES AND LOOK AT THE DATA
